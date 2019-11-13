@@ -11,3 +11,26 @@ body {
     text-align: center;
     font-size: 50px;    
 }
+
+div {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.4em;
+}
+
+div:nth-child(even) {
+        color: rgb(39, 39, 39);
+    background-color: rgb(237, 237, 238);
+}
+
+div:nth-child(odd) {
+    background-color: rgb(39, 39, 39);
+}
+
+/* .dark-bg {
+
+}
+
+.light-bg {
+
+} */
